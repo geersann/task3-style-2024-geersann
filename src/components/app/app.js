@@ -1,7 +1,11 @@
 import React from 'react';
-
+import './components/app/app.css';
 import Button from '../button/button.js';
 
-export default function App(){
-    return <div data-testid="element-app"><Button /></div>
+export default function App() {
+    return (
+        <div className="wrapper-app">
+            <Button />
+        </div>
+    );
 }
